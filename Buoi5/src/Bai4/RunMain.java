@@ -10,6 +10,6 @@ public class RunMain {
         System.out.println("Sum Long = "+(sumFl.getSoA()+sumFl.getSoB()));
         System.out.println("Sum Float = "+(sumLong.getSoA()+sumLong.getSoB()));
         System.out.println("Sum Double = "+ (sumDb.getSoA()+sumDb.getSoB()));
-        
+
     }
 }

@@ -1,4 +1,6 @@
-package Bai1;
+package Bai2;
+
+import java.util.Scanner;
 
 public class Document {
      protected int numberOfPage;
@@ -26,5 +28,16 @@ public class Document {
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+    public void Nhap(){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Input number Of Page : ");
+        numberOfPage=sc.nextInt();
+        System.out.println("Input author : ");
+        sc.nextLine();
+        author=sc.nextLine();
+    }
+    public void Xuat(){
+        System.out.format("%-20d %-20s"+numberOfPage,author);
     }
 }
